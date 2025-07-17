@@ -61,7 +61,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Nutrient Spawner.cs" />
+    <Compile Include="Assets\EnemyCell.cs" />
+    <Compile Include="Assets\CellController.cs" />
+    <Compile Include="Assets\EnemyCellSpawner.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\ViralEnemySpawner.cs" />
+    <Compile Include="Assets\ViralEnemy.cs" />
+    <Compile Include="Assets\SelectionManager.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\GroupMovement.cs" />
+    <Compile Include="Assets\CellAI.cs" />
+    <Compile Include="Assets\Nutrient.cs" />
+    <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\CellSelectable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1186,6 +1199,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
